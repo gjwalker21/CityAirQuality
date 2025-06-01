@@ -1,0 +1,20 @@
+[project]
+title = "City Air Quality"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "City Air Quality"
+logo = "images/logo.png"
+favicon = "images/cloudyweather_cloud_inpart_day_wind_thunder_sunny_rain_darkness_nublad_1459"
+primaryColor = "#F89613"
+
+[data.AQ]
+type = "csv"
+path = "data/Air_Quality.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
